@@ -1,4 +1,6 @@
 #include<chplot.h>
+//This story is about heroes fighting against a monster. Please answer questions as you enjoy the story.
+
 //declarations
 
 string_t Run, Attack, Item, x, y, move, move2, i, z, insult;
@@ -175,12 +177,14 @@ I just pushed ''Run'' and there's already a ton of action going on.''\n\n");
     printf("Boy in a yellow power suit: Actually, I have to continue running so I'll make this quick.\n\
 My codename is Shifty, but you can call me anything. So what do you want to call me?\n\n");
     
+    //insert name for the main character
     name1();
 
     printf("%s: ...and these are my friends...We're superheros. The dude with the skull mask is...well, ''Skull.'' The\n\
 ninja girl is our team leader. She's, ''Ninja.'' The robot is my backpack and his name is, ''Gizmo.'' But we call him\n\
 ''Giz.'' Actually, now that I think about it, that sounds kinda weird. How about you give him a different name.\n\n", x);
-
+    
+    //insert name for the main character's companion
     name2();
 
     printf("%s: The girl with the huge metal gauntlets is ''Power.'' and lastly the tech suit dude is ''Hacker.''I know,\n\
@@ -239,6 +243,7 @@ I know. These names are lame. Now if you'll excuse me. I have to run for my life
     sleep(3);
     printf("Creature: Grrrrrrrrrr.\n\n");
     
+    //insert insult
     Insult();
     
     printf("Creature: RRRRRRRRRROOOOOOOOOAAAAAAARRRRRRRR.\n\n");
